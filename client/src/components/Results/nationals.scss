@@ -1,0 +1,17 @@
+.nationals{
+    display: flex;
+
+    .left{
+        flex: 0.21;
+    }
+
+    .middle{
+        flex: 0.58;
+        background-color: lightgray;
+        margin-top: 170px;
+    }
+
+    .right{
+        flex: 0.21;
+    }
+}

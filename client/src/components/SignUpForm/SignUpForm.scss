@@ -1,0 +1,36 @@
+.form{
+    background-color: grey;
+    padding: 20px;
+    margin: 30px;
+    font-family: "Lato", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+
+    h2{
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+
+    input{
+        border: 3px solid #ffbd59;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    button{
+        border-radius: 5px;
+        background-color: #ffbd59;
+        color: black;
+        font-family: "Lato", sans-serif;
+        font-family: "Roboto Condensed", sans-serif;
+        padding: 15px;
+        margin: 5px;
+        cursor: pointer;
+    }
+}

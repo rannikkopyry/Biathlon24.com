@@ -1,0 +1,48 @@
+@import "../../global.scss";
+
+.etusivu{
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 160px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column; 
+  justify-content: center;
+
+.heading{
+  justify-content: center;
+      max-width: 1140px;
+      margin: auto;
+}
+
+.content{
+  justify-content: center;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    background-color: darkgray;
+    width: 100%;
+
+  .left{
+    flex: 0.6;
+    border: 2px solid black;
+  
+  h2{
+    font-size: 24px;
+    margin: 20px;
+  }
+  }
+
+  .right{
+    flex: 0.4;
+    border: 2px solid black;
+
+    h2{
+      font-size: 24px;
+      margin: 20px;
+    }
+  }
+
+  }
+}

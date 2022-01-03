@@ -1,0 +1,60 @@
+.athletes{
+    display: flex;
+
+    .left{
+        flex: 0.21;
+    }
+
+    .middle{
+        flex: 0.58;
+        background-color: lightgray;
+        margin-top: 170px;
+        margin-bottom: 130px;
+
+
+        .heading{
+            margin: 30px;
+        }
+
+        .kortit{
+            display: flex;
+        
+        .vasen{
+            flex: 0.5;
+
+            .jtb{
+                background-color: white;
+                margin: 20px;
+                padding: 10px;
+            }
+
+            .tarjei{
+                background-color: white;
+                margin: 20px;
+                padding: 10px;
+            }
+        }
+
+        .oikea{
+            flex: 0.5;
+
+            .sturla{
+                background-color: white;
+                margin: 20px;
+                padding: 10px;
+            }
+
+            .jacquelin{
+                background-color: white;
+                margin: 20px;
+                padding: 10px;
+            }
+        }
+        }
+
+    }
+
+    .right{
+        flex: 0.21;
+    }
+}

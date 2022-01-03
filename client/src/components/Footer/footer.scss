@@ -1,0 +1,43 @@
+@import "../../global.scss";
+
+.footer {
+  background-color: grey;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  .form {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .links {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+
+    ul {
+      display: table;
+    }
+
+    li {
+      display: table-cell;
+      margin: 5px;
+    }
+
+    a {
+      color: $mainColor2;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    a:hover {
+      color: black;
+    }
+  }
+}

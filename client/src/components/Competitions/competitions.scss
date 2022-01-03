@@ -1,0 +1,51 @@
+@import "../../global.scss";
+
+.competitions{
+    display: flex;
+
+    .left{
+        flex: 0.21;
+    }
+
+    .middle{
+        flex: 0.58;
+        margin-top: 170px;
+        background-color: lightgray;
+        
+        ul{
+            text-align: center;
+            align-items: center;
+            white-space: nowrap;
+            display: table;    
+    
+           li{
+                width: 250px;
+                font-family: "Open Sans", sans-serif;
+                font-size: 15px;
+                letter-spacing: 2px;
+                text-align: center;
+                line-height: 50px;
+                display: table-cell;
+                align-items: center;
+                color: black;
+    
+                a{
+                    color: black;
+                    text-transform: uppercase;
+                    font-weight: lighter;
+                }
+    
+           }
+    
+           .related{
+               margin: 50px;
+           }
+    
+    
+        }
+    }
+
+    .right{
+        flex: 0.21;
+    }
+}
