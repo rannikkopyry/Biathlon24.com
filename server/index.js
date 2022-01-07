@@ -7,7 +7,7 @@ const app = express();
 import cors from "cors";
 app.use(cors());
 
-const url = "https://biathlonresults.com/";
+const url = "https://biathlonresults.com/news/";
 const url_calendar = "https://www.biathlonworld.com/calendar?CupLevel=all"
 
 app.get("/", function (req, res) {
@@ -21,7 +21,7 @@ app.get("/news", (req, res) => {
       const $ = cheerio.load(html);
       const articles = [];
 
-      console.log($("class=['panel-heading']", html)).each(function () {
+      console.log($("div > ul", html)).each(function () {
         //<-- cannot be a function expression
         const title = $(this).find("h2");
         const url = $(this).find("a").attr("href");
@@ -43,7 +43,8 @@ app.get("/calendar", (req, res) => {
     const html = response.data;
     const $ = cheerio.load(html)
 
-    console.log($('div', html))
+    console.log($("[href]", html))
+
   })
   .catch((error) => console.log(error))
 })

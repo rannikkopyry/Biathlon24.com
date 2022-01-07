@@ -12,6 +12,8 @@ import Loader from "../Loader";
 import Logo from "../../images/logo.png"
 
 import { Hashtag } from "react-twitter-widgets";
+import Dropdown from "../Dropdown/Dropdown";
+import Topbar from "../Topbar/Topbar";
 
 export default function Etusivu() {
   return (
@@ -24,6 +26,7 @@ export default function Etusivu() {
       <div className="content">
         <div className="left">
           <h2>Latest news</h2>
+          <Dropdown />
         </div>
         <div className="right">
           <h2>Upcoming competitions</h2>
