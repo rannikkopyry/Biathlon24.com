@@ -12,6 +12,12 @@
       justify-content: center;
       max-width: 1140px;
       margin: auto;
+
+      h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
     }
   
   .text{
@@ -19,5 +25,14 @@
     max-width: 1140px;
     margin: auto;
 
+    h2{
+      margin-top: 20px;
+      overflow: hidden;
+    }
+
+    h3{
+      margin-top: 20px;
+      overflow: hidden;
+    }
   }
   }

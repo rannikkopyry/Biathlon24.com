@@ -1,40 +1,40 @@
 @import "../../global.scss";
 
 .dropdown-menu {
-    background: grey;
-    width: 200px;
-    position: absolute;
-    top: 80px;
-    list-style: none;
-    text-align: start;
-    z-index: 10;
+  background: pink;
+  width: 200px;
+  height: 100px;
+  top: 60px;
+  position: relative;
+  list-style: none;
+  text-align: start;
+  z-index: 999;
+}
 
-  }
-  
-  .dropdown-menu li {
-    background: $mainColor2;
-    cursor: pointer;
-  }
-  
-  .dropdown-menu li:hover {
-    background: #5cabff;
-  }
-  
-  .dropdown-menu.clicked {
+.dropdown-menu li {
+  background: $mainColor2;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: #5cabff;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
     display: none;
   }
-  
-  .dropdown-link {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    padding: 16px;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .fa-caret-down {
-      display: none;
-    }
-  }
+}

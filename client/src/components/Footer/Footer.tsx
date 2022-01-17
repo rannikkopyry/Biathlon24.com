@@ -9,6 +9,7 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 import SignUpForm from "../SignUpForm/SignUpForm";
+import SomeLinks from "../SomeLinks/SomeLinks";
 
 export default function Footer() {
   return (
@@ -24,6 +25,9 @@ export default function Footer() {
             <li><a href="/terms-and-conditions">Terms and conditions</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
+          </div>
+          <div className="somelinks">
+          <SomeLinks />
           </div>
 
         </div>

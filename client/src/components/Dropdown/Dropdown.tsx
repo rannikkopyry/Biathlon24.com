@@ -3,10 +3,10 @@ import { MenuItems } from '../MenuItems/MenuItems';
 import './dropdown.scss';
 import { Link } from 'react-router-dom';
 
-function Dropdown() {
+function Dropdown(): JSX.Element {
   const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(!click); 
 
   return (
     <>

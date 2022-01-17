@@ -1,0 +1,29 @@
+.somelinks {
+  display: table;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  ul {
+    display: table-cell;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  img {
+    max-width: 27px;
+    flex-direction: row;
+    margin-right: 5px;
+
+  }
+
+  a{
+    opacity: 0.8;
+  }
+
+  a:hover{
+    opacity: 1;
+  }
+}

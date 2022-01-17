@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div className='contact'>
             <div className="heading">
-                <h2>Contact us</h2>
+                <h2>Want to get in touch with us?</h2>
             </div>
             <div className="text">
             <h3>All inquiries via email</h3>
@@ -13,6 +13,6 @@ function Contact() {
             </div>
         </div>
     )
-}
+} 
 
 export default Contact

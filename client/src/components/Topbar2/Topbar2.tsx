@@ -34,9 +34,7 @@ function Topbar2(props: any) {
             <div className="menu" onClick={handleClick}>
               <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li
-                  className={`nav-item  ${
-                    props.location.pathname === "/" ? "active" : ""
-                  }`}
+                 className="nav-item"
                 ><a href="/">
                   <Link className="nav-link" to="/" onClick={closeMobileMenu}>
                     Homepage
@@ -44,9 +42,7 @@ function Topbar2(props: any) {
                   </Link>
                 </a></li>
                 <li
-                  className={`nav-item  ${
-                    props.location.pathname === "/News" ? "active" : ""
-                  }`}
+                 className="nav-item"
                 ><a href="/News">
                   <Link className="nav-link" to="/News" onClick={closeMobileMenu}>
                     News
@@ -73,18 +69,14 @@ function Topbar2(props: any) {
                   {dropdown && <DropdownResults />}
                 </a></li>
                 <li
-                  className={`nav-item  ${
-                    props.location.pathname === "/Athletes" ? "active" : ""
-                  }`}
+                className="nav-item"
                 ><a href="/Athletes">
                   <Link className="nav-link" to="/Athletes" onClick={closeMobileMenu}>
                     Athletes
                   </Link>
                 </a></li>
                 <li
-                  className={`nav-item  ${
-                    props.location.pathname === "/About" ? "active" : ""
-                  }`}
+                className="nav-item"
                 ><a href="/About">
                   <Link className="nav-link" to="/About" onClick={closeMobileMenu}>
                     About Biathlon

@@ -30,7 +30,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "public/main.ts"  ],
   "exclude": [
     "node_modules"
   ]

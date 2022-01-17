@@ -29,10 +29,9 @@ import Contact from './components/FooterPages/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
 
       <Router>
-
       <Topbar />
       <Topbar2/>
 

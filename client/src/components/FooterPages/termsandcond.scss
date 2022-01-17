@@ -7,17 +7,30 @@
   margin-right: 20px;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 
   .heading{
     justify-content: center;
     max-width: 1140px;
     margin: auto;
+    overflow: hidden;
+
+    h1{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
   }
 
 .text{
   justify-content: center;
   max-width: 1140px;
   margin: auto;
+  overflow: hidden;
+
+  h2{
+    overflow: hidden;
+  }
 
 }
 }
