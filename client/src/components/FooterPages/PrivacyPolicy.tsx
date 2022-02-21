@@ -9,8 +9,8 @@ function PrivacyPolicy() {
       </div>
       <div className="text">
         <p>
-          Effective date: September 18, 2018 Awad Development, LLC ("us", "we",
-          or "our") operates the https://www.mysaffronapp.com website (the
+          Effective date: Janurary 1, 2022 Biathlon24.com ("us", "we",
+          or "our") operates the https://www.biathlon24.com website (the
           "Service"). This page informs you of our policies regarding the
           collection, use, and disclosure of personal data when you use our
           Service and the choices you have associated with that data. We use
@@ -18,7 +18,7 @@ function PrivacyPolicy() {
           you agree to the collection and use of information in accordance with
           this policy. Unless otherwise defined in this Privacy Policy, terms
           used in this Privacy Policy have the same meanings as in our Terms and
-          Conditions, accessible from https://www.mysaffronapp.com
+          Conditions, accessible from https://www.biathlon24.com
         </p>
         <h2>Information Collection and Use</h2>
         <p>
@@ -90,7 +90,7 @@ function PrivacyPolicy() {
         </p>
         <h2>Use of Data</h2>
         <p>
-          Awad Development, LLC uses the collected data for various purposes:
+          Biathlon24.com uses the collected data for various purposes:
         </p>
         <p>To provide and maintain the Service</p>
         <p>To notify you about changes to our Service</p>
@@ -115,7 +115,7 @@ function PrivacyPolicy() {
           note that we transfer the data, including Personal Data, to United
           States and process it there. Your consent to this Privacy Policy
           followed by your submission of such information represents your
-          agreement to that transfer. Awad Development, LLC will take all steps
+          agreement to that transfer. Biathlon24.com will take all steps
           reasonably necessary to ensure that your data is treated securely and
           in accordance with this Privacy Policy and no transfer of your
           Personal Data will take place to an organization or a country unless
@@ -125,15 +125,15 @@ function PrivacyPolicy() {
         <h2>Disclosure of Data</h2>
         <h2>Legal Requirements</h2>
         <p>
-          Awad Development, LLC may disclose your Personal Data in the good
+          Biathlon24.com may disclose your Personal Data in the good
           faith belief that such action is necessary to:
         </p>
         <p>To comply with a legal obligation</p>
         <p>
-          To protect and defend the rights or property of Awad Development, LLC
+          To protect and defend the rights or property of Biathlon24.com
         </p>
         <p>
-          To protect and defend the rights or property of Awad Development, LLC
+          To protect and defend the rights or property of Biathlon24.com
         </p>
         <p>
           To protect the personal safety of users of the Service or the public

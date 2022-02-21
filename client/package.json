@@ -27,9 +27,12 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "start:api": "netlify-lambda serve .netlify/functions",
+    "build:api": "netlify-lambda build .netlify/functions",
     "test": "react-scripts test",
     "start": "react-scripts start",
     "build": "node public/main.js && react-scripts-build",
+    "buildlambda": "npm run build:api && npm run build:app",
     "server": "node public/main.ts"
   },
   "author": "",

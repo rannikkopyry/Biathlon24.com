@@ -1,23 +1,25 @@
 @import "../../global.scss";
 
 .dropdown-menu {
-  background: pink;
+  background: grey;
   width: 200px;
   height: 100px;
-  top: 60px;
-  position: relative;
+  top: 170px;
+  position: absolute;
   list-style: none;
   text-align: start;
   z-index: 999;
+  background-color: pink;
 }
 
 .dropdown-menu li {
   background: $mainColor2;
   cursor: pointer;
+  z-index: 999;
 }
 
 .dropdown-menu li:hover {
-  background: #5cabff;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-menu.clicked {

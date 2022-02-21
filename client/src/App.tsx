@@ -29,13 +29,15 @@ import Contact from './components/FooterPages/Contact';
 
 function App() {
   return (
+    <>
     <div className="app">
 
       <Router>
       <Topbar />
       <Topbar2/>
-
       <div className="content">
+
+
       
       <Switch>
       <Route path="/" exact component={() => <Etusivu />} />
@@ -70,7 +72,9 @@ function App() {
       <Footer/>
 
       </Router>
+
     </div>
+    </>
   );
 }
 

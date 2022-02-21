@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.scss'
+import SomeLinks from '../SomeLinks/SomeLinks'
 
 function Contact() {
     return (
@@ -10,6 +11,10 @@ function Contact() {
             <div className="text">
             <h3>All inquiries via email</h3>
             <p>contact@biathlon24.com</p>
+            <div className='some'>
+            <h4>Stay connected with us via social media!</h4>
+            <SomeLinks />
+            </div>
             </div>
         </div>
     )

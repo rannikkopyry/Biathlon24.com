@@ -11,7 +11,7 @@ function TermsAndCond() {
         <div className="text">
           <h2>1. Terms</h2>
           <p>
-            By accessing the website at http://www.mysaffronapp.com, you are
+            By accessing the website at http://www.biathlon24.com, you are
             agreeing to be bound by these terms of service, all applicable laws
             and regulations, and agree that you are responsible for compliance
             with any applicable local laws. If you do not agree with any of
@@ -22,13 +22,13 @@ function TermsAndCond() {
           <h2>2. Use license</h2>
           <p>
             Permission is granted to temporarily download one copy of the
-            materials (information or software) on Awad Development, LLC's
+            materials (information or software) on Biathlon24.com's
             website for personal, non-commercial transitory viewing only. This
             is the grant of a license, not a transfer of title, and under this
             license you may not: modify or copy the materials; use the materials
             for any commercial purpose, or for any public display (commercial or
             non-commercial); attempt to decompile or reverse engineer any
-            software contained on Awad Development, LLC's website; remove any
+            software contained on Biathlon24.com's website; remove any
             copyright or other proprietary notations from the materials; or
             transfer the materials to another person or "mirror" the materials
             on any other server. This license shall automatically terminate if
@@ -40,24 +40,24 @@ function TermsAndCond() {
           </p>
           <h2>3. Disclaimer</h2>
           <p>
-            The materials on Awad Development, LLC's website are provided on an
-            'as is' basis. Awad Development, LLC makes no warranties, expressed
+            The materials on Biathlon24.com's website are provided on an
+            'as is' basis. Biathlon24.com makes no warranties, expressed
             or implied, and hereby disclaims and negates all other warranties
             including, without limitation, implied warranties or conditions of
             merchantability, fitness for a particular purpose, or
             non-infringement of intellectual property or other violation of
-            rights. Further, Awad Development, LLC does not warrant or make any
+            rights. Further, Biathlon24.com does not warrant or make any
             representations concerning the accuracy, likely results, or
             reliability of the use of the materials on its website or otherwise
             relating to such materials or on any sites linked to this site.
           </p>
           <h2>4. Limitations</h2>
           <p>
-            In no event shall Awad Development, LLC or its suppliers be liable
+            In no event shall Biathlon24.com or its suppliers be liable
             for any damages (including, without limitation, damages for loss of
             data or profit, or due to business interruption) arising out of the
-            use or inability to use the materials on Awad Development, LLC's
-            website, even if Awad Development, LLC or a Awad Development, LLC
+            use or inability to use the materials on Biathlon24.com's
+            website, even if Biathlon24.com or a Biathlon24.com
             authorized representative has been notified orally or in writing of
             the possibility of such damage. Because some jurisdictions do not
             allow limitations on implied warranties, or limitations of liability
@@ -66,25 +66,25 @@ function TermsAndCond() {
           </p>
           <h2>5. Accuracy of materials</h2>
           <p>
-            The materials appearing on Awad Development, LLC's website could
+            The materials appearing on Biathlon24.com's website could
             include technical, typographical, or photographic errors. Awad
             Development, LLC does not warrant that any of the materials on its
-            website are accurate, complete or current. Awad Development, LLC may
+            website are accurate, complete or current. Biathlon24.com may
             make changes to the materials contained on its website at any time
-            without notice. However Awad Development, LLC does not make any
+            without notice. However Biathlon24.com does not make any
             commitment to update the materials.
           </p>
           <h2>6. Links</h2>
           <p>
-            Awad Development, LLC has not reviewed all of the sites linked to
+            Biathlon24.com has not reviewed all of the sites linked to
             its website and is not responsible for the contents of any such
             linked site. The inclusion of any link does not imply endorsement by
-            Awad Development, LLC of the site. Use of any such linked website is
+            Biathlon24.com of the site. Use of any such linked website is
             at the user's own risk.
           </p>
           <h2>7. Modifications</h2>
           <p>
-            Awad Development, LLC may revise these terms of service for its
+            Biathlon24.com may revise these terms of service for its
             website at any time without notice. By using this website you are
             agreeing to be bound by the then current version of these terms of
             service.
