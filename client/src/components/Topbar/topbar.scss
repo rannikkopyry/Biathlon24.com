@@ -2,7 +2,7 @@
 
 .topbar {
   background-color: darkgrey;
-  width: 100%;
+  width: 100vw;
   height: 90px;
   position: absolute;
   top: 0;
@@ -14,32 +14,30 @@
   display: flex;
 
   .left{
-    flex: 0.1;
+    flex: 0.15;
   }
 
 
   .middle {
-    align-items: center; 
-    justify-content: center;
     display: flex;
     margin: auto;
     height: 90px;
-    text-align: center;
     top: 8px;
-    flex: 0.8;
+    flex: 0.7;
 
     a {
-      justify-content: center;
+      display: block;
+      margin: auto;
       text-align: center;
+      width: 100%;
+      justify-content: center;
       align-items: center;
-      position: absolute;
-      margin-bottom: 7px;
     }
   
 
   .right {
     display: inline-block;
-    flex: 0.1;
+    flex: 0.15;
     
   }
 }

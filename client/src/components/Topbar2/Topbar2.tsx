@@ -1,8 +1,22 @@
 import React, { useState } from "react";
+import bootstrap from "bootstrap";
+import Popper from "popper.js";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
 import "./topbar2.scss";
 import { Link, withRouter } from "react-router-dom";
-import Dropdown from "../Dropdown/Dropdown";
-import DropdownResults from "../Dropdown/DropdownResults";
+import {
+  Button,
+  ButtonGroup,
+  Container,
+  Dropdown,
+  DropdownButton,
+  Form,
+  FormControl,
+  Nav,
+  Navbar,
+  NavDropdown,
+} from "react-bootstrap";
 
 function Topbar2(props: any) {
   const [click, setClick] = useState(false);
@@ -34,44 +48,34 @@ function Topbar2(props: any) {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <a href="/">
-                <Link className="nav-link" to="/" onClick={closeMobileMenu}>
                   Homepage
-                  <span className="sr-only">(current)</span>
-                </Link>
               </a>
             </li>
             <li className="nav-item">
               <a href="/News">
-                <Link className="nav-link" to="/News" onClick={closeMobileMenu}>
+               
                   News
-                </Link>
               </a>
             </li>
             <div className="competitionslink">
               <li className="nav-item">
                 <a href="/Competitions">
-                  <Link
-                    className="nav-link"
-                    to="/Competitions"
-                    onClick={closeMobileMenu}
-                  >
                     Competitions
-                  </Link>
                   <ul className="submenu-competitions">
                     <li>
-                      <a href="/">World Cup</a>
+                      <a href="/Competitions/Worldcup">World Cup</a>
                     </li>
                     <li>
-                      <a href="/">Ibu Cup</a>
+                      <a href="/Competitions/Ibucup">Ibu Cup</a>
                     </li>
                     <li>
-                      <a href="/">Ibu Junior Cup</a>
+                      <a href="/Competitions/Juniorcup">Ibu Junior Cup</a>
                     </li>
                     <li>
-                      <a href="/">Nationals Cup</a>
+                      <a href="/Competitions/Nationals">Nationals</a>
                     </li>
                     <li>
-                      <a href="/">Summer Biathlon</a>
+                      <a href="/Competitions/Summerbiathlon">Summer Biathlon</a>
                     </li>
                   </ul>
                 </a>
@@ -80,28 +84,22 @@ function Topbar2(props: any) {
             <div className="resultslink">
               <li className="nav-item">
                 <a href="/Results">
-                  <Link
-                    className="nav-link"
-                    to="/Results"
-                    onClick={closeMobileMenu}
-                  >
                     Results
-                  </Link>
                   <ul className="submenu-results">
                     <li>
-                      <a href="/">World Cup</a>
+                      <a href="/Results/Worldcup">World Cup</a>
                     </li>
                     <li>
-                      <a href="/">Ibu Cup</a>
+                      <a href="/Results/Worldcup">Ibu Cup</a>
                     </li>
                     <li>
-                      <a href="/">Ibu Junior Cup</a>
+                      <a href="/Results/Juniorcup">Ibu Junior Cup</a>
                     </li>
                     <li>
-                      <a href="/">Nationals Cup</a>
+                      <a href="/Results/Nationals">Nationals</a>
                     </li>
                     <li>
-                      <a href="/">Summer Biathlon</a>
+                      <a href="/Results/Summerbiathlon">Summer Biathlon</a>
                     </li>
                   </ul>
                 </a>
@@ -109,26 +107,30 @@ function Topbar2(props: any) {
             </div>
             <li className="nav-item">
               <a href="/Athletes">
-                <Link
-                  className="nav-link"
-                  to="/Athletes"
-                  onClick={closeMobileMenu}
-                >
                   Athletes
-                </Link>
               </a>
             </li>
-            <li className="nav-item">
-              <a href="/About">
-                <Link
-                  className="nav-link"
-                  to="/About"
-                  onClick={closeMobileMenu}
-                >
-                  About Biathlon
-                </Link>
-              </a>
-            </li>
+            <div className="aboutlink">
+              <li className="nav-item">
+                <a href="/About">
+                    About Biathlon
+                  <ul className="submenu-about">
+                    <li>
+                      <a href="/About/Whatisbiathlon">What is Biathlon?</a>
+                    </li>
+                    <li>
+                      <a href="/About/History">History</a>
+                    </li>
+                    <li>
+                      <a href="/About/Disciplines">Disciplines</a>
+                    </li>
+                    <li>
+                      <a href="/About/More">More</a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+            </div>
           </ul>
         </div>
       </nav>

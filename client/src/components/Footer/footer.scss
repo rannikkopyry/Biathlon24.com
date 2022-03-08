@@ -8,6 +8,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   .form {
     margin: auto;
@@ -17,17 +18,21 @@
   }
 
   .links {
+    width: 100%;
     margin: auto;
     justify-content: center;
     text-align: center;
 
     ul {
       display: table;
+      text-align: center;
+      width: 100%;
     }
 
     li {
       display: table-cell;
       margin: 5px;
+      text-align: center;
     }
 
     a {
@@ -41,10 +46,12 @@
     }
   }
 
-  .somelinks{
+  .somelinks {
     margin: auto;
     justify-content: center;
     display: flex;
     text-align: center;
+    align-items: center;
+    width: 100%;
   }
 }

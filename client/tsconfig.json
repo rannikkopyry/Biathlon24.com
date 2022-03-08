@@ -24,13 +24,14 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
-    "useUnknownInCatchVariables": false,
+    "useUnknownInCatchVariables": false
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "public/main.ts"  ],
+    "**/*.tsx",
+    "public/main.ts"
+  ],
   "exclude": [
     "node_modules"
   ]

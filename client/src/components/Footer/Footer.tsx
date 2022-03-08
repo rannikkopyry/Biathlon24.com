@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="form">
           <SignUpForm />
           </div>
-          <div className="links">
+          <div className="links"> 
             <ul>
             <li><a href="/privacy-policy">Privacy policy</a></li>
             <li><a href="/terms-and-conditions">Terms and conditions</a></li>
