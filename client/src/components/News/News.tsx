@@ -5,17 +5,6 @@ import axios from "axios";
 import { Select, Typography, Row, Col, Avatar, Card } from "antd";
 
 export default function News() {
-  async function getRandomUser() {
-    try {
-      const data = await axios.get(
-        "https://random-data-api.com/api/cannabis/random_cannabis?size=2&is_xml=true"
-      );
-      return data;
-    } catch (err) {
-      console.log("error: ", err);
-    }
-  }
-
   return (
     <div className="news">
       <div className="content">

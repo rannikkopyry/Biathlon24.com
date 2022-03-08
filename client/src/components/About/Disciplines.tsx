@@ -1,8 +1,12 @@
 import React from 'react'
+import './disciplines.scss'
 
 function Disciplines() {
   return (
-    <div>Disciplines</div>
+    <div className='disciplines'>
+      <div className="heading"></div>
+      <div className="content"></div>
+      </div>
   )
 }
 
